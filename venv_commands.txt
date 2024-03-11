@@ -1,0 +1,23 @@
+ways to create virtual environment
+
+pip install virtualenv
+
+virtualenv venv
+
+or
+virtualenv venv --python=3.10.0
+
+##activate virtualenvironment
+venv\Scripts\activate
+
+######################################################
+
+remove virtualenv
+rmdir /s /q venv
+
+###################################
+
+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
+233: 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
+619red: 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
+233red : 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
