@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Extraction Result</title>
+</head>
+<body>
+    <h1>Invoice Extraction Result</h1>
+    
+    {% if cell_contents %}
+        <h2>Extracted Information:</h2>
+        <ul>
+            {% for content in cell_contents %}
+                <li>{{ content }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No information extracted.</p>
+    {% endif %}
+    
+    <a href="{{ url_for('index') }}">Back to Upload</a>
+</body>
+</html>

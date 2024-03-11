@@ -1,0 +1,69 @@
+from flask import Flask, render_template, request, jsonify, send_from_directory
+import os
+import uuid
+import azure.cognitiveservices.speech as speech_sdk
+
+app = Flask(__name__)
+
+# Set your Azure Cognitive Services subscription key and region
+cog_key = "2328ec43179f4401a82199e32f449746"
+cog_region = "eastus"
+
+translation_config = speech_sdk.translation.SpeechTranslationConfig(cog_key, cog_region)
+translation_config.speech_recognition_language = 'en-US'
+translation_config.add_target_language('fr')
+translation_config.add_target_language('es')
+translation_config.add_target_language('hi')
+
+speech_config = speech_sdk.SpeechConfig(cog_key, cog_region)
+
+target_languages = {
+    "fr": 'fr-French-HenriNeural',
+    "es": 'es-Es-ElviraNeural',
+    "hi": 'hi_IN-MadhurNeural'
+}
+
+static_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static')
+
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+
+@app.route('/translate', methods=['POST'])
+def translate():
+    try:
+        spoken_text = request.json.get('spoken_text', '')
+        target_language = request.json.get('target_language', '')
+
+        translation_config.speech_recognition_language = 'en-US'
+        translation_config.add_target_language(target_languages[target_language])
+
+        translator = speech_sdk.translation.TranslationRecognizer(translation_config)
+        translation_result = translator.recognize_once_async(spoken_text).get()
+        translated_text = translation_result.translations[target_languages[target_language]]
+
+        # Save the translated audio to a file
+        audio_config = speech_sdk.AudioConfig(use_default_microphone=True)
+        speech_synthesizer = speech_sdk.SpeechSynthesizer(speech_config, audio_config=audio_config)
+        audio_filename = f'{uuid.uuid4()}.wav'
+        audio_path = os.path.join(static_folder, audio_filename)
+        speech_synthesizer.speak_text_to_file(translated_text, audio_path)
+
+        # Return the URL of the audio file
+        audio_url = f'/static/{audio_filename}'
+
+        return jsonify({'translation': translated_text, 'audio_url': audio_url})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+# Serve the audio file
+@app.route('/static/<path:filename>')
+def serve_static(filename):
+    return send_from_directory(static_folder, filename)
+
+
+if __name__ == '__main__':
+    app.run(debug=True)

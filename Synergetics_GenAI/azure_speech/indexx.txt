@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Translation</title>
+</head>
+<body>
+
+    <h1>Speech Translation</h1>
+
+    <button id="startSpeaking">Start Speaking</button>
+    <p id="spokenText"></p>
+
+    <label for="targetLanguage">Target Language:</label>
+    <select id="targetLanguage">
+        <!-- Add options for different languages -->
+        <option value="fr">French</option>
+        <option value="es">Spanish</option>
+        <option value="hi">Hindi</option>
+    </select>
+
+    <button id="translateButton">Translate</button>
+
+    <audio controls id="audioPlayer">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        const startSpeakingButton = document.getElementById('startSpeaking');
+        const spokenTextElement = document.getElementById('spokenText');
+        const targetLanguageSelect = document.getElementById('targetLanguage');
+        const translateButton = document.getElementById('translateButton');
+        const audioPlayer = document.getElementById('audioPlayer');
+
+        let recognition;
+
+        startSpeakingButton.addEventListener('click', () => {
+            startSpeakingButton.disabled = true;
+            recognition = new webkitSpeechRecognition();
+            recognition.lang = 'en-US';
+            recognition.onresult = (event) => {
+                const spokenText = event.results[0][0].transcript;
+                spokenTextElement.textContent = spokenText;
+                startSpeakingButton.disabled = false;
+            };
+            recognition.onend = () => {
+                startSpeakingButton.disabled = false;
+            };
+            recognition.start();
+        });
+
+        translateButton.addEventListener('click', () => {
+            const spokenText = spokenTextElement.textContent;
+            const targetLanguage = targetLanguageSelect.value;
+
+            // Make a POST request to your server to handle translation
+            fetch('/translate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ spoken_text: spokenText, target_language: targetLanguage }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                const audioUrl = data.audio_url;
+                audioPlayer.src = audioUrl;
+                audioPlayer.play();
+            })
+            .catch(error => console.error('Error:', error));
+        });
+    </script>
+
+</body>
+</html>

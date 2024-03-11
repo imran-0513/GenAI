@@ -1,0 +1,65 @@
+### github link
+https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence/tree/main/Labfiles
+
+https://github.com/MicrosoftLearning/mslearn-dp100
+
+### speech translate
+pip install azure-cognitiveservices-speech==1.30.0
+
+
+### text analyze
+pip install azure-ai-textanalytics==5.3.0
+
+### text translate
+
+
+##### document intellignece
+pip install azure-ai-formrecognizer==3.3.0
+
+##### vision service
+pip install azure-cognitiveservices-vision-computervision==0.7.0
+
+
+####### speechTrans ######################
+
+import azure.cognitiveservices.speech as speech_sdk
+
+cog_key = "2328ec43179f4401a82199e32f449746"
+cog_reg = "eastus"
+
+translation_config = speech_sdk.translation.SpeechTranslationConfig(cog_key,cog_reg)
+
+translation_config.speech_recognition_language='en-US'
+
+translation_config.add_target_language('fr')
+translation_config.add_target_language('es')
+translation_config.add_target_language('hi')
+
+
+speech_sdk.Speechconfig(cog_key,cog_reg)
+
+
+target_language =""
+
+while target_language!='quit':
+    target_language = input("\nenter a target language\n fr= Frecnh\n es=Spanish\n hi=hindi \n enter anything to stop\n").lower()
+    audio_config = speech_sdk.AudioConfig(use_default_microphone=True)
+    speech_sdk.translation.TranslationRecognizer(translation_config,audio_config=audio_config)
+
+    print("Speech now...")
+    result = translator.recognizer_once_async().get()
+
+    print('Translating"{}"'.format(result.text))
+    translation = result.translation[target_language]
+    print(translation)
+    voices = {
+        "fr":'fr-French-HenriNeural',
+        "es":'es-Es-ElviraNeural',
+        "hi":'hi_IN-MadhurNeural'
+
+    }
+
+    speech_config.speech_synthesis_voice_name=voices.get(target_language)
+    speech_synthesizer=speech_sdk.SpeechSynthesizer(speech_config)
+    speech_synthesizer.speech_text_async(translation).get()
+    target_language = 'quit'
