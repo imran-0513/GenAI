@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAI Playground</title>
+    <style>
+        .user-input {
+            font-weight: bold;
+        }
+
+        #user_input {
+            width: 30%;
+            height: 50px; /* Set the desired height */
+        }
+
+        #clear_button {
+            margin-top: 10px; /* Adjust the margin as needed */
+        }
+    </style>
+</head>
+<body>
+    <h1>OpenAI Playground</h1>
+    <form action="/generate_text" method="post">
+        <label for="user_input">User Input:</label>
+        <input type="text" id="user_input" name="user_input" required>
+        <button type="submit">Generate Text</button>
+    </form>
+
+    <button id="clear_button" onclick="clearChats()">Clear Chats</button>
+
+    <div id="chat_history">
+        {% for message in conversation_history %}
+            {% if message.role == "user" %}
+                <p class="user-input">User: {{ message.content }}</p>
+            {% elif message.role == "assistant" %}
+                <p>Assistant: {{ message.content }}</p>
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    <script>
+        function clearChats() {
+            // Clear the chat history by removing all child elements of the 'chat_history' div
+            var chatHistoryDiv = document.getElementById("chat_history");
+            while (chatHistoryDiv.firstChild) {
+                chatHistoryDiv.removeChild(chatHistoryDiv.firstChild);
+            }
+        }
+    </script>
+</body>
+</html>

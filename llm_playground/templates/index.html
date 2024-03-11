@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAI Playground</title>
+</head>
+<body>
+    <h1>OpenAI Playground</h1>
+    
+    <form id="modelForm" action="/generate_text" method="post">
+        <label for="selected_model">Select Model:</label>
+        <select id="selected_model" name="selected_model">
+            <option value="openai">OpenAI</option>
+        </select>
+        
+        <label for="user_input">Enter Text:</label>
+        <textarea id="user_input" name="user_input" rows="4" cols="50"></textarea>
+        
+        <button type="submit">Generate Text</button>
+    </form>
+
+    <div id="resultContainer">
+        <!-- Display the results here -->
+    </div>
+</body>
+</html>

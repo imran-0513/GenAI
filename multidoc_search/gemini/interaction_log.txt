@@ -1,0 +1,520 @@
+Timestamp: 2024-02-17 15:40:58
+Query: how many states are there
+Response: 28
+
+Timestamp: 2024-02-18 07:47:11
+Query: how many states are there in india
+Response: 28
+
+Timestamp: 2024-02-18 08:10:40
+Query: what is total states in india
+Response: 28 states
+
+Timestamp: 2024-02-18 08:11:54
+Query: tell me about Open AI GPT 3.5 
+Response: GPT-3.5 is an earlier version of GPT-4, and it is smaller and less capable than its successor. However, it is still a very powerful LLM, and it is a good choice for tasks that require moderate levels of processing power, such as:
+
+Generating text
+Translating languages
+Writing different kinds of creative content
+Answering your questions in an informative way
+
+Timestamp: 2024-02-18 08:17:29
+Query: tell me about Open AI GPT 3.5 
+Response: OpenAI's GPT-3.5 is a powerful large language model (LLM) capable of generating human-quality text, translating languages, writing different kinds of creative content, and answering your questions in an informative way. It is an earlier version of GPT-4 and is smaller and less capable than its successor. However, it is still a very powerful LLM and is a good choice for tasks that require moderate levels of processing power, such as:
+
+Generating text
+Translating languages
+Writing different kinds of creative content
+Answering your questions in an informative way
+
+Timestamp: 2024-02-18 08:18:00
+Query: tell me about Open AI GPT 3.5 
+Response: OpenAI's GPT-3.5 is a powerful large language model (LLM) capable of human-quality text, translating, writing different kinds of creative content, and providing answers to your questions in an efficient manner. It is an earlier version of GPT-4, making it smaller and less capable than its advanced counterpart. However, GPT-3.5 remains a highly effective LLM, suitable for tasks requiring moderate levels of processing power, such as generating text, translating languages, creating various forms of creative content, and providing well-informed answers to your questions.
+
+Timestamp: 2024-02-18 08:28:16
+Query: what is total states in india
+Response: 28
+
+Timestamp: 2024-02-18 08:28:49
+Query: tell me about gpt 3.5
+Response: GPT-3.5 is an earlier version of GPT-4, and it is smaller and less capable than its successor. However, it is still a very powerful LLM, and it is a good choice for tasks that require moderate levels of processing power, such as:
+
+* Generating text
+* Translating languages
+* Writing different kinds of creative content
+* Answering your questions in an informative way
+
+Timestamp: 2024-02-18 08:29:22
+Query: who is president of USA
+Response: The provided context does not mention anything about the president of the USA, so I cannot answer this question from the provided context.
+
+Timestamp: 2024-02-18 08:32:30
+Query: what is sales of super store
+Response: Answer is not available in the context
+
+Timestamp: 2024-02-18 08:36:53
+Query: what is number of religions exists in india and mention their names
+Response: India is home to various religions, including Hinduism, Islam, Christianity, Sikhism, Buddhism, and Jainism, among others.
+
+Timestamp: 2024-02-18 08:56:27
+Query: what is total states in india and what is gpt 3.5 
+Response: India has 28 states and 9 union territories.
+
+GPT-3.5 is an earlier version of GPT-4, and it is smaller and less capable than its successor. However, it is still a very powerful LLM, and it is a good choice for tasks that require moderate levels of processing power, such as:
+
+Generating text
+Translating languages
+Writing different kinds of creative content
+Answering your questions in an informative way
+
+Timestamp: 2024-02-18 21:17:56
+Query: what are total number of columns
+Response: Answer is not available in the context
+
+Timestamp: 2024-02-18 21:30:16
+Query: how many columns are there
+Response: Answer is not available in the context
+
+Timestamp: 2024-02-18 21:31:32
+Query: whats there in test objective
+Response: answer is not available in the context
+
+Timestamp: 2024-02-18 21:32:11
+Query: tell me about test case id TS001
+Response: TS001Sign Up: New User Registration
+1. Navigate to playground
+2. Go to Sign in option
+3. Access the playground 
+without credentials
+System prompts to fill out username and password filedSystem prompts to fill out username and passwordPassnan
+
+Timestamp: 2024-02-18 21:33:26
+Query: what are the different column names are there
+Response: answer is not available in the context
+
+Timestamp: 2024-02-18 21:34:06
+Query: how many pass and fail are there
+Response: Pass: 13
+Fail: 3
+
+Timestamp: 2024-02-18 21:35:09
+Query: can you name all test case id's
+Response: PassnanTS016
+
+Timestamp: 2024-02-18 21:36:33
+Query: list out all column names
+Response:     answer is not available in the context
+
+Timestamp: 2024-02-18 21:46:26
+Query: What is the total number of rows and columns in the dataset
+Response: The provided context does not have any information about the number of rows and columns in the dataset, so I cannot answer this question from the provided context.
+
+Timestamp: 2024-02-18 22:18:03
+Query: What is the total number of rows and columns in the dataset
+Response: The answer is not available in the question is not provided
+
+Timestamp: 2024-02-18 22:18:24
+Query: list out columns name
+Response: answer is not available in the context
+
+Timestamp: 2024-02-18 22:20:04
+Query: provide the name whose age is maximum
+Response: answer is not available in the context
+
+Timestamp: 2024-02-18 22:20:31
+Query: what is age of John Smith
+Response: 35
+
+Timestamp: 2024-02-18 22:21:02
+Query: whose age is maximum
+Response: answer is not available in the context
+
+Timestamp: 2024-02-18 22:21:50
+Query: what is the name of employee whose Employee ID is 1010
+Response: Amanda Nguyen
+
+Timestamp: 2024-02-18 22:22:15
+Query: what is the name of employee whose Employee ID is 1010 and what is his salary
+Response: answer is not available in the context
+
+Timestamp: 2024-02-18 22:22:30
+Query: what is the name of employee whose Employee ID is 1010 
+Response: Amanda Nguyen
+
+Timestamp: 2024-02-18 22:23:20
+Query: what is salary of William Turner
+Response: $60,000
+
+Timestamp: 2024-02-19 10:49:13
+Query: what is the mean of age column
+Response: Answer is not available in the context
+
+Timestamp: 2024-02-19 10:50:27
+Query: what is the mean of age
+Response: answer is not available in the context
+
+Timestamp: 2024-02-20 10:29:08
+Query: what is gpt 4
+Response: GPT-4 is the latest version of GPT, and it is significantly larger and more capable than GPT-3.5. It is also multimodal, meaning that it can process and generate text, images, and code. GPT-4 is a good choice for tasks that require high levels of processing power, such as:
+
+Generating complex and creative text formats
+Translating languages with high accuracy
+Writing different kinds of creative content
+Answering your questions in a comprehensive and informative way
+Analyzing and generating images
+Writing and debugging code
+
+Timestamp: 2024-02-20 10:30:33
+Query: among gpt 3.5 and 4 when should we use which one
+Response: You should choose GPT-3.5 if you are looking for a powerful and affordable LLM that is suitable for a wide range of tasks. GPT-3.5 is a good choice for developers who are building applications that require natural language processing, as well as for individuals who are looking for a tool to help them with their writing and creative work.
+
+You should choose GPT-4 if you are looking for the most powerful and versatile LLM available. GPT-4 is a good choice for developers who are building cutting-edge AI applications, as well as for individuals who are looking for a tool to help them with their most challenging writing and creative tasks.
+
+Timestamp: 2024-02-20 10:31:27
+Query: which one should we use for image
+Response: Image API
+
+Timestamp: 2024-02-22 11:59:44
+Query: how many states are there in india
+Response: 28 states and 9 union territories
+
+Timestamp: 2024-02-22 12:00:43
+Query: what are different religions exists in india
+Response: Hinduism, Islam, Christianity, Sikhism, Buddhism, and Jainism
+
+Timestamp: 2024-02-22 16:50:02
+Query: what is gpt 3
+Response:     answer is not available in the context
+
+Timestamp: 2024-02-22 16:50:36
+Query: what is gpt 4
+Response:     answer is not available in the context
+
+Timestamp: 2024-02-22 16:51:13
+Query: what is gpt 4.0
+Response: GPT-4 is the latest version of GPT, and it is significantly larger and more capable than GPT-3.5. It is also multimodal, meaning that it can process and generate text, images, and code. GPT-4 is a good choice for tasks that require high levels of processing power, such as:
+
+* Generating complex and creative text formats
+* Translating languages with high accuracy
+* Writing different kinds of creative content
+* Answering your questions in a comprehensive and informative way
+* Analyzing and generating images
+* Writing and debugging code
+
+Timestamp: 2024-02-22 16:51:53
+Query: what is gpt 3.5
+Response: GPT-3.5 is an earlier version of GPT-4, and it is smaller and less capable than its successor. However, it is still a very powerful LLM, and it is a good choice for tasks that require moderate levels of processing power, such as:
+
+* Generating text
+* Translating languages
+* Writing different kinds of creative content
+* Answering your questions in an informative way
+
+Timestamp: 2024-02-22 17:31:25
+Query: how many states are there in india
+Response: 28 states
+
+Timestamp: 2024-02-22 17:32:31
+Query: what is gpt 4.0
+Response: GPT-4 is the latest version of GPT, and it is significantly larger and more capable than GPT-3.5. It is also multimodal, meaning that it can process and generate text, images, and code. GPT-4 is a good choice for tasks that require high levels of processing power, such as:
+
+* Generating complex and creative text formats
+* Translating languages with high accuracy
+* Writing different kinds of creative content
+* Answering your questions in a comprehensive and informative way
+* Analyzing and generating images
+* Writing and debugging code
+
+Timestamp: 2024-02-22 17:34:56
+Query: what is number of religions exists in india and mention their names
+Response:     The answer is not available in the context.
+
+Timestamp: 2024-02-22 17:35:39
+Query: what are the different religions exists in india
+Response: Hinduism, Islam, Christianity, Sikhism, Buddhism, and Jainism
+
+Timestamp: 2024-02-22 17:38:36
+Query: what is the employee id of Mary Johnson
+Response:     1002
+
+Timestamp: 2024-02-22 17:39:18
+Query: what is the salary of Amanda Nguyen
+Response:     Answer is not available in the context
+
+Timestamp: 2024-02-22 17:39:57
+Query: what is the salary of Amanda Nguyen
+Response:     Amanda Nguyen's salary is $90,000.
+
+Timestamp: 2024-02-23 15:38:55
+Query: what is the salary of Amanda Nguyen
+Response: $90,000
+
+Timestamp: 2024-02-23 15:39:14
+Query: what is the salary of Amanda Nguyen provide answer in full sentence
+Response: Amanda Nguyen's salary is $90,000.
+
+Timestamp: 2024-02-23 15:39:35
+Query: what is the salary of Amanda Nguyen provide answer in full sentence and sql query
+Response: Amanda Nguyen's salary is $90,000.
+
+SQL query:
+
+```
+SELECT Salary
+FROM Employee
+WHERE Name = 'Amanda Nguyen';
+```
+
+Timestamp: 2024-02-23 15:40:41
+Query: what is the salary of Amanda Nguyen provide answer in full sentence and convert it into hindi 
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 15:40:56
+Query: what is the salary of Amanda Nguyen provide answer in full sentence and convert it into hindi 
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 15:41:10
+Query: what is the salary of Amanda Nguyen provide answer in full sentence and convert it into hindi language
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:15:10
+Query: whom did imran married
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:15:19
+Query: whom did imran married
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:15:41
+Query: what is the date of birth of imran
+Response: 13-may-1992
+
+Timestamp: 2024-02-23 19:16:00
+Query: when did married
+Response: 28-4-2019
+
+Timestamp: 2024-02-23 19:17:06
+Query: when did married and provide me answer in full sentence
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:17:18
+Query: when did imran married and provide me answer in full sentence
+Response: Imran married on 28th April 2019.
+
+Timestamp: 2024-02-23 19:20:10
+Query: when did imran married and provide me sql query
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:21:51
+Query: what is the salary of Jessica Lee provide me in full sentence
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:22:02
+Query: what is the salary of Jessica Lee provide me in full sentence
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:22:35
+Query: what is the salary of Jessica Lee provide me in full sentence
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:22:52
+Query: what is the salary of Jessica Lee
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:23:05
+Query: what is the salary of Jessica Lee
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:24:07
+Query: what is the salary of Jessica Lee
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:24:30
+Query: what is the salary of Amanda Nguyen
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:25:07
+Query: what is the salary of employee Amanda Nguyen
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:25:25
+Query: what is employee id of Amanda Nguyen
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:25:55
+Query: what is the employee id of Amanda Nguyen
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:26:04
+Query: what is the employee id of Amanda Nguyen
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:26:27
+Query: what is the employee id of Mary Johnson
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:27:14
+Query: mention names of imran's family members
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:27:50
+Query: how many family members are there in imran family
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:28:46
+Query: what is the name imran's wife
+Response: bibi summaiya
+
+Timestamp: 2024-02-23 19:29:20
+Query: who is bibi summaiya
+Response: answer is not available in the context
+
+Timestamp: 2024-02-23 19:31:01
+Query: what is the daughter name of bibi summaiya
+Response: Answer is not available in the context
+
+Timestamp: 2024-02-23 19:31:18
+Query: what is the daughter name of imran
+Response: yusra fatima
+
+Timestamp: 2024-02-23 19:31:59
+Query: tell me who is bibi summaiya
+Response: Answer is not available in the context
+
+Timestamp: 2024-02-23 22:20:02
+Query: what is gpt 4.0
+Response: GPT-4 is the latest version of GPT, and it is significantly larger and more capable than GPT-3.5. It is also multimodal, meaning that it can process and generate text, images, and code. GPT-4 is a good choice for tasks that require high levels of processing power, such as:
+
+* Generating complex and creative text formats
+* Translating languages with high accuracy
+* Writing different kinds of creative content
+* Answering your questions in a comprehensive and informative way
+* Analyzing and generating images
+* Writing and debugging code
+
+Timestamp: 2024-02-23 22:21:01
+Query: how many states are there in india provide me in full sentence
+Response: India has 28 states and 9 union territories.
+
+Timestamp: 2024-02-23 22:26:14
+Query: who is having highest salary
+Response:     answer is not available in the context
+
+Timestamp: 2024-02-23 22:26:48
+Query: what is the name of the employee whose employee id is 1002
+Response: Mary Johnson
+
+Timestamp: 2024-02-23 22:27:13
+Query: what is the name of the employee whose employee id is 1002 provide me the sql query as well
+Response: Answer is not available in the context
+
+Timestamp: 2024-02-23 22:27:29
+Query: what is the name of the employee whose employee id is 1002 and also provide me the sql query as well
+Response: The provided text does not contain any information about employees or their employee IDs, so I cannot answer this question.
+
+Timestamp: 2024-02-23 22:27:53
+Query: what is the name of the employee whose employee id is 1002
+Response:     Mary Johnson
+
+Timestamp: 2024-02-24 22:53:00
+Query: what are the different tool we can use
+Response: answer is not available in the context
+
+Timestamp: 2024-02-24 22:54:02
+Query: what is data lakehouse
+Response: Lakehouses are data architectures that allow organizations to store and manage structured and unstructured data in a single location, using various tools and frameworks to process and analyze that data.
+
+Timestamp: 2024-02-24 22:55:07
+Query: how to create lakehouse 
+Response: answer is not available in the context
+
+Timestamp: 2024-02-24 22:56:27
+Query: what fabric enables
+Response: answer is not available in the context
+
+Timestamp: 2024-02-24 22:58:52
+Query: what microsoft fabric enables
+Response:     answer is not available in the context
+
+Timestamp: 2024-02-25 10:14:54
+Query: when to use gpt 4.0
+Response: You should choose GPT-4 if you are looking for the most powerful and versatile LLM available. GPT-4 is a good choice for developers who are building cutting-edge AI applications, as well as for individuals who are looking for a tool to help them with their most challenging writing and creative tasks.
+
+Timestamp: 2024-02-25 11:04:01
+Query: what is the name of employee id 1002
+Response: Mary Johnson
+
+Timestamp: 2024-02-25 11:34:08
+Query: what is gpt 3.5
+Response: GPT-3.5 is an earlier version of GPT-4, and it is smaller and less capable than its successor. However, it is still a very powerful LLM, and it is a good choice for tasks that require moderate levels of processing power, such as:
+
+Generating text
+Translating languages
+Writing different kinds of creative content
+Answering your questions in an informative way
+
+Timestamp: 2024-02-25 11:45:06
+Query: what is gpt 3.5
+Response: GPT-3.5 is an earlier version of GPT-4, and it is smaller and less capable than its successor. However, it is still a very powerful LLM, and it is a good choice for tasks that require moderate levels of processing power, such as:
+
+* Generating text
+* Translating languages
+* Writing different kinds of creative content
+* Answering questions in an informative way
+
+Timestamp: 2024-02-25 12:03:24
+Query: what is gpt 3.5
+Response: GPT GPT (Generative Pre - trained transformer ) - is an earlier version of GPT -  and it is smaller and less capable than its successor . However , it is still a very powerful LLM , and it is a good choice for tasks that require moderate levels of processing power , such as :
+    
+    Translating text
+    Writing different kinds of creative content
+    Answering your questions in an informative way
+
+Timestamp: 2024-02-25 12:06:29
+Query: what is gpt 3.5
+Response: GPT-3.5 is an earlier version of GPT-4, and it is smaller and less capable than its successor. However, it is still a very powerful LLM, and it is a good choice for tasks that require moderate levels of processing power, such as:
+- Generating text
+- Translating languages
+- Writing different kinds of creative content
+- Answering your questions in an informative way
+
+Timestamp: 2024-02-26 18:36:09
+Query: what is gpt 4.0
+Response: GPT-4 is the latest version of GPT, and it is significantly larger and more capable than GPT-3.5. It is also multimodal, meaning that it can process and generate text, images, and code. GPT-4 is a good choice for tasks that require high levels of processing power, such as:
+
+* Generating complex and creative text formats
+* Translating languages with high accuracy
+* Writing different kinds of creative content
+* Answering your questions in a comprehensive and informative way
+* Analyzing and generating images
+* Writing and debugging code
+
+Timestamp: 2024-02-26 18:37:38
+Query: what is the salary of Mary Johnson
+Response:     $50,000
+
+Timestamp: 2024-02-26 18:38:16
+Query: what is the salary of Mary Johnson and provide me answer in full sentence
+Response: Mary Johnson's salary is $50,000.
+
+Timestamp: 2024-02-27 12:49:27
+Query: what is gpt 4.0
+Response: GPT-4 is the latest version of GPT, and it is significantly larger and more capable than GPT-3.5. It is also multimodal, meaning that it can process and generate text, images, and code. GPT-4 is a good choice for tasks that require high levels of processing power, such as:
+
+* Generating complex and creative text formats
+* Translating languages with high accuracy
+* Writing different kinds of creative content
+* Answering your questions in a comprehensive and informative way
+* Analyzing and generating images
+* Writing and debugging code
+
+Timestamp: 2024-02-27 12:50:16
+Query: what is gpt 3.5
+Response: GPT-3.5 is an earlier version of GPT-4, and it is smaller and less capable than its successor. However, it is still a very powerful LLM, and it is a good choice for tasks that require moderate levels of processing power, such as:
+
+* Generating text
+* Translating languages
+* Writing different kinds of creative content
+* Answering questions in an informative way
+
